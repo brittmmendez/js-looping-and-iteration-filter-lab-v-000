@@ -7,7 +7,7 @@ function findMatching(drivers,name){
 function fuzzyMatch (drivers, beginningLetters) {
   return drivers.filter( function (driver){
     return driver.slice(0, beginningLetters.length) == beginningLetters;
-    
+
   });
 }
 
